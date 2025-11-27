@@ -18,7 +18,6 @@ void solve() {
         cout << "YES" << endl;
         return;
     }
-
     bool possible = true;
     for (int i = 0; i < N - 1; ++i) {
         bool orderA = arr[i] < arr[i + 1];
